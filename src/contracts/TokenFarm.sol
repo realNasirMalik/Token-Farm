@@ -7,7 +7,7 @@ contract TokenFarm {
      // All code goes here...
      string public name = "Dapp Token Farm";
      DappToken public dappToken;
-     Dai public daiToken;
+     DaiToken public daiToken;
 
      constructor(DappToken _dappToken, DaiToken _daiToken) public {
           dappToken = _dappToken;
