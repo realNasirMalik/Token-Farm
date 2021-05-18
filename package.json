@@ -1,5 +1,5 @@
 {
-  "name": "defi-tutorial",
+  "name": "token-farm",
   "version": "0.1.0",
   "description": "DeFi Token Staking App",
   "author": "gregory@dappuniversity.com",
@@ -36,5 +36,21 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realNasirMalik/Token-Farm.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realNasirMalik/Token-Farm/issues"
+  },
+  "homepage": "https://github.com/realNasirMalik/Token-Farm#readme"
 }
